@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="9dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="9dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/todo_date"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:paddingLeft="11dp"
+            android:text="Kamis, 31 April 2017"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/todo_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:paddingLeft="11dp"
+            android:text="20.30.35 AM"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:padding="9dp">
+
+        <TextView
+            android:id="@+id/todo_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="11dp"
+            android:text="Judul Blog"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/todo_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/todo_title"
+            android:layout_marginBottom="7dp"
+            android:paddingLeft="11dp"
+            android:text="Desktipsi Blog" />
+
+        <TextView
+            android:id="@+id/todo_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/todo_title"
+            android:layout_marginBottom="7dp"
+            android:paddingLeft="11dp"
+            android:text="Desktipsi Blog"
+            android:textColor="@android:color/transparent" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/todo_title"
+            android:layout_marginTop="6dp"
+            android:background="@android:color/white"
+            android:text="DONE"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">User Data</string>
+    <string name="register">Register</string>
+    <string name="userempty">Username must be filled</string>
+</resources>
